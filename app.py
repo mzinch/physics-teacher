@@ -13,7 +13,7 @@ client = OpenAI(
     api_key=os.environ.get("OPENROUTER_API_KEY"),
 )
 
-MODEL = "openai/gpt-4o-mini"
+MODEL = "google/gemma-2-9b-it:free"
 
 # ====================== ЗАГРУЗКА МАТЕРИАЛОВ ======================
 def load_materials():
